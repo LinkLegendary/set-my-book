@@ -1,0 +1,386 @@
+<style>@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+</style>* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+nav {
+
+    padding: 0 16px;
+    height: 70px;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 18px;
+}
+
+a {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(4, 4, 4);
+}
+
+.sub-header {
+    font-weight: bold;
+}
+
+header {
+
+    height: 120vh;
+    padding: 0 24px 0;
+    background-color: cadetblue;
+    display: flex;
+
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width 100% max-width: 1600px;
+
+
+}
+
+h1 {
+    font-size: 60px;
+    padding: 24px 0;
+
+}
+
+.sub-header {
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+button {
+    background-color: cornsilk;
+    border: 0;
+    padding: 8px 16px;
+    color: brown;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: grab;
+    margin-bottom: 10px;
+
+
+}
+
+
+#about,
+#discord,
+#contact {
+    font-size: 30px;
+    padding: 48px;
+    text-align: center;
+
+
+
+
+}
+
+
+
+/* 
+
+About
+
+
+*/
+
+#About {
+    background-color: burlywood;
+    padding: 1px 0;
+    font-size: 24px;
+    margin-top: 0;
+
+}
+
+.section__description {
+
+    display: flex;
+
+}
+
+.section__description--wrapper {
+    width: 100%;
+    padding: 7px;
+    font-size: 20px;
+
+}
+
+.about--row {
+
+    padding: 30px;
+}
+
+
+img {
+    width: 100%;
+}
+
+.about__image--wrapper {
+
+    width: 80%
+}
+
+.section__description--para {
+    padding: 24px 0;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#discord.section__description {
+    flex-direction: column-reverse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+discord
+
+
+*/
+
+
+#discord {
+    background-color: chartreuse;
+    padding: 1px 24px 0 px;
+}
+
+.section__description {
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.section__description--wrapper {
+    width: 60%;
+}
+
+.discord__image--wrapper {
+    width: %;
+}
+
+img {
+    width: 100%;
+}
+
+.section__description--para {
+    margin: 0 24px 0 0;
+}
+
+/* 
+
+
+contact
+
+
+*/
+
+#Contact {
+    background-color: rgb(30, 182, 164);
+    padding: 24px 0;
+
+}
+
+
+form {
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 24px;
+
+
+
+
+}
+
+
+span {
+
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+
+   
+
+
+
+
+
+input,
+textarea {
+    margin-bottom: 24px;
+    font-size: 20px;
+    padding: 6px, 12px;
+}
+
+input {
+    padding: 6px
+}
+
+button {
+
+    color: cadetblue;
+
+    margin-top: 24px;
+
+}
+
+footer {
+    padding: 24px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.image__footer--logo {
+    max-width: 400px;
+    margin-bottom: 24px;
+    padding: 10px;
+
+
+}
+
+.footer-links {
+     text-decoration: non;
+}
+
+
+
+/* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+@media(max-width:728px) {
+
+    .row {
+        flex-direction: column;
+
+
+    }
+
+    .home__description {
+
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 24px;
+
+
+
+
+
+
+
+    }
+
+    .home__description--button {}
+
+
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        color: black;
+
+    }
+
+    .sub-header {
+        text-align: center;
+        font-size: 28px;
+
+
+    }
+
+
+    ul {
+        display: none;
+
+    }
+
+    .section__description {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    a {
+        font-size: 16px;
+        padding: 0 3px;
+
+
+    }
+
+
+
+
+
+
+
+}
