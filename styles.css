@@ -591,7 +591,7 @@ footer {
 
 .footer__link {
 
-    padding: 20px 40px;
+    padding: 20px 20px;
     margin: 0;
 
 }
@@ -648,7 +648,12 @@ button {
 
 
 /* SMALL PHONES, LARGE SMARTPHONES */
-@media (max-width: 550px) {
+@media (max-width: 400px) {
+
+
+    .footer__link--small {
+        padding: 1px 8px; 
+    }
 
     .btn__menu {
         display: block;
